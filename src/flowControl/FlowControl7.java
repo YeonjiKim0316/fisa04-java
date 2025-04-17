@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+package flowControl;
+
 import java.util.Scanner;
 
 public class FlowControl7 {

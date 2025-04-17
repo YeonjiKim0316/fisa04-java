@@ -1,3 +1,5 @@
+package flowControl;
+
 import java.util.*;
 
 public class Reminder {
@@ -61,7 +63,7 @@ public class Reminder {
 //        System.out.println(set.size()); // 방의 길이를 나타내는 명령어
 //
 //        // 개발자가 정해놓은 값만 들어갈 수 있도록 특정 값들을 상수처럼 고정하는 ENUM
-//        DAY today = DAY.THU;
+//        flowControl.DAY today = flowControl.DAY.THU;
 //        System.out.println(today);
 
         // 조건문 : if ~ else if~ else 문 / switch ~ case / 삼항연산자

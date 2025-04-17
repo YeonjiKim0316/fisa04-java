@@ -1,3 +1,5 @@
+package flowControl;
+
 import java.util.Scanner;
 
 public class FlowControl2 {

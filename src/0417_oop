@@ -1,0 +1,12 @@
+# book이라는 패키지를 만들고
+# Book이라는 부모클래스
+# 필드: name, author, no, comment
+# 메서드: // void introduce  -> 멤버 변수들이 뭐가 있는지 출력
+        // void finish(String comment)  -> 다 읽었습니다. + comment 출력
+       // setBookName -> 책 이름을 간접적으로 접근해서 변경할 수 있습니다.
+
+# ComicBook 이라는 부모클래스를 상속받은 자식클래스
+# 필드: star (별점을 매기는 속성 추가)
+# 메서드: introduce에 기존 동작 + 별점도 함께 출력
+# getBookStar -> 책의 별점을 간접적으로 확인하는 메서드 만들어주십시오.
+
