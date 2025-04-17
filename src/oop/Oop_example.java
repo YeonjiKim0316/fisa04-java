@@ -5,11 +5,20 @@ public class Oop_example {
     public static void main(String[] args){
         
         // 자료형 변수명 = new(메모리 확보) 생성자 (호출)
-        Student kim = new Student("김연지");
+        Student kim = new Student("김연지"); // 명시적으로 작성된 생성자가 있으면 그 생성자만 사용할 수 있도록
+        Student shin = new Student("신짱구", 5);
+        Student lee = new Student();
+
         System.out.println(kim.age); // 초기값 0을 넣어줬음
-        System.out.println(kim.name); // 김연지
+        System.out.println(kim.name); // null;
         String result = kim.enter(); // return을 했으므로
         System.out.println(result);
         kim.exit();
+
+//        Student shin = new Student("신짱구");
+//        // 이너클래스 - 외부클래스와 관련있는 어떤 객체를 만들 때 사용
+//        // 외부클래스.자료형 변수명 = 인스턴스.new(메모리 확보) 생성자 (호출)
+//        Student.Grade grade = shin.new Grade(85);
+//        System.out.println(grade.getGrade()+"가 "+shin.name+"의 점수입니다.");
     }
 }
