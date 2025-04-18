@@ -1,5 +1,7 @@
 package paymentEx;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         // 신용카드와 NaverPay 결제 객체 생성
@@ -25,9 +27,12 @@ public class Main {
         if (creditCard instanceof CreditCardPayment) {
             ((CreditCardPayment) creditCard).refund(); // (int) str객체
         }
-//
-//        if (naverPay instanceof Refundable) {
-//            ((Refundable) naverPay).refund();
-//        }
+
+        if (naverPay instanceof Refundable) {
+            ((Refundable) naverPay).refund();
+        }
+
+
+
     }
 }
